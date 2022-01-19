@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Form</h1>
+<form action="submit.html" method="GET">
+    <label for="FirstName">FirstName:</label>
+    <input type="text" id="FirstName" name="firstName" placeholder="Enter FirstName" maxlength="10" required/>
+    <br>
+    <br>
+    <label for="LastName">LastName:</label>
+    <input type="text" id="LastName" name="lastName" placeholder="Enter LastName" maxlength="10" required/>
+    <br>
+    <br>
+    <label for="dob">Date Of Birth:</label>
+    <input type="date" id="dob" name="dob" placeholder="Enter"/>
+    <br>    
+    <br>
+    <label for="gender">Gender:</label>
+    <br>
+    <input type="radio" id="gender" name="gender" placeholder="Enter">Male
+    <input type="radio" id="gender" name="gender" placeholder="Enter">Female
+    <br>
+    <br>
+    <label for="address">Address:</label>
+    <br>
+    <textarea id="address" name="address" placeholder="Enter Address" rows="5" col=100" required>
+          
+    </textarea>
+    <br>
+    <br>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" placeholder="Enter City" required/>
+    <br>
+    <br>
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" placeholder="Enter State" required/>
+    <br>
+    <br>
+    <label for="courses">Courses</label>
+    <select name="courses" id="courses" required>
+        <option>Select</option>
+        <option value="HTML&CSS">Zero To Html Courses</option>
+        <option value="Angular">Zero  To Angular Courses</option>
+        <option value="React">  Zero  To React Courses</option>
+        <option value="Python">  Zero  To Python Courses</option>
+    </select>
+    <br>
+    <br>
+    <label for="AdditionalComments">Additional Comments:</label>
+    <br>
+    <textarea id="AdditionalComments" name="AdditionalComments" placeholder="Enter About the course expectations" rows="5" col=100">
+
+          
+    </textarea>
+    <br>
+    <input type="checkbox" id="Terms&Conditions"/>Tick to accept the conditions
+    <br>
+    <br>
+    <input type="submit" value="Submit"/>
+    <input type="reset" value="Reset"/>
+
+
+
+</form>
+</body>
+</html>
